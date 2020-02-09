@@ -20,10 +20,8 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 array.each do |i|
-  if cheese_types.include?(i) == true
-    return i
-elsif cheese_types.include?(i) == false
-  return nil
+  return i if cheese_types.include?(i) == true
+
 end
 end
 end
