@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.map {|i| "#{i.split("").first.upcase.join("")}!"}
+  array.map {|i| "#{i[0].upcase}!"}
 
 end
 
