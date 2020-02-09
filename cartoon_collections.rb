@@ -22,6 +22,5 @@ def find_the_cheese(array)# code an argument here
 cheese_types.each do |i|
   array.include?(i)
 end
-end
 
 end
