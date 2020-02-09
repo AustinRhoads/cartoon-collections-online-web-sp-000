@@ -26,3 +26,4 @@ elsif cheese_types.include?(i) == false
   return nil
 end
 end
+end
